@@ -126,4 +126,5 @@ try {
     print "API Request failed: " . $e->getMessage() . "\n";
 }
 
+print "All done!\n";
 ?>
