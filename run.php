@@ -125,6 +125,4 @@ try {
 } catch (\RuntimeException $e) {
     print "API Request failed: " . $e->getMessage() . "\n";
 }
-
-print "All done!\n";
 ?>
