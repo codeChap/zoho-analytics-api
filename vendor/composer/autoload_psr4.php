@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Codechap\\ZohoAnalyticsApi\\' => array($baseDir . '/src'),
+    'codechap\\ZohoAnalyticsApi\\' => array($baseDir . '/src'),
 );

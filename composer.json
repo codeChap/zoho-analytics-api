@@ -2,14 +2,20 @@
     "name": "codechap/zoho-analytics-api",
     "description": "A PSR-4 compliant library to interact with Zoho Analytics API",
     "type": "library",
-    "require": {
-        "php": ">=7.4",
-        "psr/http-client": "^1.0"
-    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Codechap\\ZohoAnalyticsApi\\": "src/"
+            "codechap\\ZohoAnalyticsApi\\": "src/"
         }
     },
-    "license": "MIT"
+    "authors": [
+        {
+            "name": "CodeChap",
+            "email": "hello@codechap.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "psr/http-client": "^1.0"
+    }
 }
