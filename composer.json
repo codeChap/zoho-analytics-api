@@ -7,7 +7,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "codechap\\ZohoAnalyticsApi\\": "src/"
+            "Codechap\\ZohoAnalyticsApi\\": "src/"
         }
     },
     "authors": [
