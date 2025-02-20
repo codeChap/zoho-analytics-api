@@ -3,6 +3,8 @@
     "description": "A PSR-4 compliant library to interact with Zoho Analytics API",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "codechap\\ZohoAnalyticsApi\\": "src/"
