@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit9854c048d9891834c9f9bfbfcb92a72f
 {
     public static $prefixLengthsPsr4 = array (
-        'c' => 
+        'C' => 
         array (
-            'codechap\\ZohoAnalyticsApi\\' => 26,
+            'Codechap\\ZohoAnalyticsApi\\' => 26,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'codechap\\ZohoAnalyticsApi\\' => 
+        'Codechap\\ZohoAnalyticsApi\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

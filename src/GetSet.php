@@ -15,7 +15,7 @@ trait GetSet
         if (!array_key_exists($property, $this->data)) {
             throw new \InvalidArgumentException(sprintf('Property "%s" does not exist', $property));
         }
-        return $this->data[$property];
+        return $this->data[$property]; // Return the property value
     }
 
     /**
@@ -33,14 +33,14 @@ trait GetSet
         }
         if(is_array($value)){
             foreach($value AS $k => $v){
-                $value[$k] = trim($v);
+                $value[$k] = trim($v); // Trim each array value
             }
         }else{
-            $value = trim($value);
+            $value = trim($value); // Trim scalar value
         }
 
-        $this->data[$property] = $value;
+        $this->data[$property] = $value; // Set the property value
 
-        return $this;
+        return $this; // Return instance for chaining
     }
 }
